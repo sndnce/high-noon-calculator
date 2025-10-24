@@ -1,0 +1,114 @@
+#root {
+  max-width: 2000px;
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'Ewert-Regular';
+  src: url('./assets/fonts/Ewert-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Pentagon';
+  src: url('./assets/fonts/Pentagon.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'PixelCowboy';
+  src: url('./assets/fonts/PixelCowboy.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'NorthFace';
+  src: url('./assets/fonts/NorthFace.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Eastwood';
+  src: url('./assets/fonts/Eastwood.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Euro';
+  src: url('./assets/fonts/Euro\ Western.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Hubot';
+  src: url('./assets/fonts/Euro\ Hubiot.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CM';
+  src: url('./assets/fonts/CascadiaMono.ttf') format('truetype');
+}
+
+.title {
+font-family: 'Eastwood'; 
+letter-spacing: 0.1rem;
+font-size: 3rem;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+color:#FF5900;
+
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.read-the-docs {
+  color: #888;
+}
+
+.bg {
+  background-color: #E5DCBC;
+}
+
+.button {
+  width: 150px;
+  height:25px;
+  font-size: 1.0em;
+  background-image: linear-gradient(to right, #72CBF9 0%, #004EFF 100%);
+  color: white;
+  font-family: CM;
+  border: none;
+  border-radius: 5px; 
+}
+
+.button:active {
+  background-image: linear-gradient(to right, #00A9FF 0%, #2f00A6 100%);
+}
+
+.footer {
+  background-image: url("/mesas.jpg");
+  padding: 0.10rem;
+  opacity: .70;
+
+}
+
+.footer-quote { 
+  font-family: Eastwood;
+  font-size: 2.5rem;
+
+}
+
+.footer-desc { 
+  font-family: Eastwood;
+  font-size: 1.25rem;
+
+}
+
+.thanks {
+  align-items: center;
+  display: flex; 
+  flex-direction: row;
+}
